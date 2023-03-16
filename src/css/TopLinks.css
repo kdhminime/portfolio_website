@@ -17,12 +17,21 @@
   font-size: 32pt;
 }
 .searchBoxContainer{
-  justify-content: center;
-  margin-top: -3%;
   display: flex;
+  margin-top:-3%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
-.textField{
-  width: 600px;
+.textFieldOpen fieldset {
+  border-top-right-radius: 30pt;
+  border-top-left-radius: 30pt;
+  border-color: #696969;
+}
+.textFieldClose fieldset{
+  border-radius: 30pt;
+  border-color: #696969;
 }
 
 .letterD{
