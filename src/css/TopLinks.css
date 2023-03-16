@@ -9,3 +9,29 @@
   font-size: small;
   font-family: "Roboto", sans-serif;
 }
+.letterContainer {
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  margin-top: 10%;
+  display: flex;
+  font-size: 32pt;
+}
+
+.letterD{
+  color:#4885ed;
+}
+.letterO{
+  color:#db3236;
+}
+.letterH{
+  color:#f4c20d;
+}
+.letterY{
+  color:#4885ed;
+}
+.letterU{
+  color:#3cba54;
+}
+.letterN{
+  color:#db3236;
+}
