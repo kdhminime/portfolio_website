@@ -1,0 +1,11 @@
+.linkContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  margin: 10px;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+}

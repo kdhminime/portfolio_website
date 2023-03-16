@@ -1,5 +1,8 @@
+import React from "react";
+import TopLinks from "./components/TopLinks";
+
 function App() {
-  return <div>Hello world</div>;
+  return <TopLinks />;
 }
 
 export default App;
