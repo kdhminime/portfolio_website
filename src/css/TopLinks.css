@@ -16,6 +16,14 @@
   display: flex;
   font-size: 32pt;
 }
+.searchBoxContainer{
+  justify-content: center;
+  margin-top: -3%;
+  display: flex;
+}
+.textField{
+  width: 600px;
+}
 
 .letterD{
   color:#4885ed;
