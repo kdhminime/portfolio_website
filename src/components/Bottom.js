@@ -63,7 +63,7 @@ let Bottom = () => {
           Blog
         </Link>
         <Link
-          href="#"
+          href="https://mail.google.com/mail/u/0/?fs=1&to=kdhminime@gmail.com&tf=cm"
           className="bottom-link"
           color={"#424242"}
           fontFamily={"Roboto, sans-serif"}
@@ -73,7 +73,7 @@ let Bottom = () => {
           Email
         </Link>
         <Link
-          href="#"
+          href="https://github.com/kdhminime"
           className="bottom-link"
           color={"#424242"}
           fontFamily={"Roboto, sans-serif"}
@@ -93,7 +93,7 @@ let Bottom = () => {
           Linkedin
         </Link>
         <Link
-          href="#"
+          href="https://mail.google.com/mail/u/0/?fs=1&to=kdhminime@gmail.com&tf=cm"
           className="bottom-link"
           color={"#424242"}
           fontFamily={"Roboto, sans-serif"}

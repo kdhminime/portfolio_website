@@ -12,7 +12,7 @@ function TopLinks() {
     <div className="linkContainer">
       <Link
         href="https://mail.google.com/mail/u/0/?fs=1&to=kdhminime@gmail.com&tf=cm"
-        underline="none"
+        underline="hover"
         color={dark_grey}
         style={{ marginTop: 17 }}
       >
@@ -20,7 +20,7 @@ function TopLinks() {
       </Link>
       <Link
         href="https://github.com/kdhminime"
-        underline="none"
+        underline="hover"
         color={dark_grey}
         style={{ marginTop: 17 }}
       >
