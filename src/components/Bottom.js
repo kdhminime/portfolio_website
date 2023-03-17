@@ -17,7 +17,7 @@ let Bottom = () => {
           marginLeft: -1,
         }}
       >
-        <body className="bottom-text">Edmonton</body>
+        <p className="bottom-text">Edmonton</p>
       </Paper>
       <Paper
         variant="outlined"

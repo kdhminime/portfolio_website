@@ -27,6 +27,8 @@ const CssTextField = styled(TextField)({
   },
 });
 
+let history = ["Experience", "Education", "Skills", "Projects"];
+
 let SearchBox = () => {
   const [open, setOpen] = useState(false);
   const [borderStyle, setBorderStyle] = useState("textFieldClose");
@@ -41,6 +43,14 @@ let SearchBox = () => {
     }
   };
 
+  const linkDetail = () => {
+    console.log("hi");
+    window.open(
+      "https://kdhminime.github.io/portfolio_website_detail/",
+      "_self"
+    );
+  };
+
   let SearchHistory = () => {
     return (
       <Paper
@@ -51,30 +61,14 @@ let SearchBox = () => {
         }}
       >
         <MenuList>
-          <MenuItem>
-            <ListItemIcon>
-              <HistoryIcon />
-            </ListItemIcon>
-            <ListItemText>Resume</ListItemText>
-          </MenuItem>
-          <MenuItem>
-            <ListItemIcon>
-              <HistoryIcon />
-            </ListItemIcon>
-            <ListItemText>Skills</ListItemText>
-          </MenuItem>
-          <MenuItem>
-            <ListItemIcon>
-              <HistoryIcon />
-            </ListItemIcon>
-            <ListItemText>Projects</ListItemText>
-          </MenuItem>
-          <MenuItem>
-            <ListItemIcon>
-              <HistoryIcon />
-            </ListItemIcon>
-            <ListItemText>Work Experiences</ListItemText>
-          </MenuItem>
+          {history.map((item) => (
+            <MenuItem key={item} onMouseDown={linkDetail}>
+              <ListItemIcon>
+                <HistoryIcon />
+              </ListItemIcon>
+              <ListItemText>{item}</ListItemText>
+            </MenuItem>
+          ))}
         </MenuList>
         <div className="searchBoxButton">
           <Button
